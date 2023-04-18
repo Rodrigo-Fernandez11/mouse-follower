@@ -10,6 +10,7 @@ module.exports = {
     'plugin:@typescript-eslint/recommended',
     'plugin:react/recommended',
     'plugin:react-hooks/recommended',
+    'plugin:react/jsx-runtime',
   ],
   parser: '@typescript-eslint/parser',
   parserOptions: {
@@ -21,9 +22,6 @@ module.exports = {
   },
   plugins: ['react', 'react-hooks', '@typescript-eslint'],
   rules: {
-    // Aquí puedes agregar reglas personalizadas de ESLint para tu proyecto
-    // Por ejemplo:
-    // 'no-console': 'warn'
   },
   settings: {
     react: {
