@@ -22,6 +22,7 @@ module.exports = {
   },
   plugins: ['react', 'react-hooks', '@typescript-eslint'],
   rules: {
+    '@typescript-eslint/no-inferrable-types': 'off', // Desactiva la regla de inferencia de tipos
   },
   settings: {
     react: {
